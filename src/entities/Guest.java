@@ -2,70 +2,70 @@ package entities;
 
 public class Guest {
 
-	private String GuestName;
-	private char GuestGender;
-	private String GuestCountry;
-	private String GuestAddress;
-	private String GuestNationality;
-	private CreditCard GuestCreditCard;
-	private String GuestContact;
-	private String GuestIdentity;
+	private String guestName;
+	private char guestGender;
+	private String guestCountry;
+	private String guestAddress;
+	private String guestNationality;
+	private CreditCard guestCreditCard;
+	private String guestContact;
+	private String guestIdentity;
 	
         public Guest(String name, char gender, String contactNumber) {
-            GuestName = name;
-            GuestGender = Character.toUpperCase(gender);
-            GuestContact = contactNumber;
+            guestName = name;
+            guestGender = Character.toUpperCase(gender);
+            guestContact = contactNumber;
         }                
                        
 	//getters
 	public String getGuestName(){
-		return this.GuestName;
+		return this.guestName;
 	}
 	
 	public char getGuestGender(){
-		return this.GuestGender;
+		return this.guestGender;
 	}
 	
 	public String getGuestCountry(){
-		return this.GuestCountry;
+		return this.guestCountry;
 	}
 	
 	public String getGuestAddress(){
-		return this.GuestAddress;
+		return this.guestAddress;
 	}
 	
 	public String getGuestNationality(){
-		return this.GuestNationality;
+		return this.guestNationality;
 	}
 	
 	public CreditCard getGuestCreditCard(){
-		return this.GuestCreditCard;
+		return this.guestCreditCard;
 	}
 	
 	public String getGuestContact(){
-		return this.GuestContact;
+		return this.guestContact;
 	}
 	
 	public String getGuestIdentity(){
-		return this.GuestIdentity;
+		return this.guestIdentity;
 	}
 	
         
 	//setters
-	public void setGuestName(String Name){this.GuestName = Name ;}
+	public void setGuestName(String Name){this.guestName = Name ;}
 	
-	public void setGuestGender(char Gender){this.GuestGender = Gender ;}
+	public void setGuestGender(char Gender){this.guestGender = Gender ;}
 	
-	public void setGuestCountry(String Country){this.GuestCountry = Country ;}
+	public void setGuestCountry(String Country){this.guestCountry = Country ;}
 	
-	public void setGuestAddress(String Address){this.GuestAddress = Address ;}
+	public void setGuestAddress(String Address){this.guestAddress = Address ;}
 	
-	public void setGuestNationality(String Nationality){this.GuestNationality = Nationality ;}
+	public void setGuestNationality(String Nationality){this.guestNationality = Nationality ;}
 	
-	public void setGuestCreditCard(CreditCard CCard){this.GuestCreditCard = CCard ;}
+	public void setGuestCreditCard(CreditCard CCard){this.guestCreditCard = CCard ;}
 	
-	public void setGuestContact(String Contact){this.GuestContact = Contact ;}
+	public void setGuestContact(String Contact){this.guestContact = Contact ;}
 	
-	public void setGuestIdentity(String Identity){this.GuestIdentity = Identity;}
+	public void setGuestIdentity(String Identity){this.guestIdentity = Identity;}
 	
 }
